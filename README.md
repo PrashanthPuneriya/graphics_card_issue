@@ -28,11 +28,11 @@ For those who have AMD drivers this is an important step as the _latest version_
 
 Search for the latest version of windows [as of now _1903_]  and download and install it. After the updation of the windows go to the _Check for Updates_ settings window and proceed on to upgrade the system.
 
-Now, update the [_BIOS_](https://www.asus.com/Laptops/ASUS-TUF-Gaming-FX505DY/HelpDesk_Download/)_ _of the system. BIOS allows the motherboard to work with new hardware. It must be installed cautiously. You can refer to this [_link_](https://www.asus.com/support/FAQ/1008276/) for the updation process of the BIOS.
+Now, update the [_BIOS_](https://www.asus.com/Laptops/ASUS-TUF-Gaming-FX505DY/HelpDesk_Download/) of the system. BIOS allows the motherboard to work with new hardware. It must be installed cautiously. You can refer to this [_link_](https://www.asus.com/support/FAQ/1008276/) for the updation process of the BIOS.
 
 **2. Update the Graphics Card Drivers**
 
-If you have already installed the graphics card drivers uninstall it by [_this_](https://www.amd.com/en/support/kb/faq/gpu-601) process _(AMD clean-up utility)_ or by [_this_](https://www.youtube.com/watch?v=ZxiLwLCxmkk) process _(DDU)_. Then go to the [_AMD_](https://www.amd.com/en/support/kb/faq/gpu-131)_ _website and download the [auto-detect tool](https://www.amd.com/en/support/kb/faq/gpu-131) which installs the latest graphics card drivers _(as of now 19.6.1)_ supported by your system. [Note] Use the custom installation process and select the latest driver to install.
+If you have already installed the graphics card drivers uninstall it by [_this_](https://www.amd.com/en/support/kb/faq/gpu-601) process _(AMD clean-up utility)_ or by [_this_](https://www.youtube.com/watch?v=ZxiLwLCxmkk) process _(DDU)_. Then go to the [_AMD_](https://www.amd.com/en/support/kb/faq/gpu-131) website and download the [auto-detect tool](https://www.amd.com/en/support/kb/faq/gpu-131) which installs the latest graphics card drivers _(as of now 19.6.1)_ supported by your system. [Note] Use the custom installation process and select the latest driver to install.
 
 **3. Update/Install the AMD PSP driver**
 
@@ -40,6 +40,6 @@ This is the most _important step_ as this driver helps the compatible systems to
 
 After the completion of the first _2_ steps if you navigate to the device manager most of them would be getting a PCI encryption/decryption controller device driver issue _(due to the AMD PSP driver)_. So, whether you get an issue or not you need to install the AMD PSP driver
 
-To install the AMD PSP driver go to this [_link_](https://github.com/PrashanthPuneriya/graphics_card_issue.git) (it redirects you to my GitHub page) and download the whole file and install the driver manually. If you haven&#39;t got any PCI driver issue the most preferable way to install the driver by opening the setup file contained in the WT64A file as opposed to the installation through Device Manager.
+To install the AMD PSP driver download the whole file uploaded in this repo and install the driver manually. If you haven&#39;t got any PCI driver issue the most preferable way to install the driver by opening the setup file contained in the WT64A file as opposed to the installation through Device Manager.
 
-_If this hasn&#39;t yet solved the problem you may need to wait for the official  update which fixes this issue._
+_If these instructions hasn&#39;t yet solved the problem you may need to wait for the official  update which fixes this issue._
